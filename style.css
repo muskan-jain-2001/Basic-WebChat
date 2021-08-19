@@ -1,0 +1,36 @@
+#meassages {
+    height: 300px;
+    font-weight: bold;
+}
+
+#username {
+    background-color: green;
+    color: white;
+}
+
+#username::placeholder {
+    color: wheat;
+}
+
+#textarea {
+    color: black;
+    font-style: oblique;
+}
+
+#messages {
+    background-color: lightyellow;
+}
+
+#messages div:nth-child(odd) {
+    background: lightgray;
+}
+
+#textarea {
+    width: 25rem;
+    height: 3rem
+}
+
+#send {
+    width: 8rem;
+    height: 4rem;
+}
